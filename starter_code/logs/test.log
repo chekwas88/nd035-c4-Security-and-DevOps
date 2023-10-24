@@ -2278,3 +2278,27 @@ Unconditional classes:
 2023-10-18 14:33:58.040 [main] ERROR c.e.demo.controllers.CartController - removeFromCart: User with username null not found
 2023-10-18 14:33:58.041 [main] INFO  c.e.demo.controllers.CartController - removeFromCart: Started to remove from cart
 2023-10-18 14:33:58.041 [main] ERROR c.e.demo.controllers.CartController - removeFromCart: Item with id 0 not found
+2023-10-24 10:09:27.428 [main] INFO  c.e.demo.controllers.CartController - addTocart: started adding item to cart
+2023-10-24 10:09:27.433 [main] INFO  c.e.demo.controllers.CartController - addTocart: Item has been added successfully
+2023-10-24 10:09:27.459 [main] INFO  c.e.demo.controllers.CartController - addTocart: started adding item to cart
+2023-10-24 10:09:27.460 [main] INFO  c.e.demo.controllers.CartController - addTocart: Item has been added successfully
+2023-10-24 10:09:27.460 [main] INFO  c.e.demo.controllers.CartController - addTocart: started adding item to cart
+2023-10-24 10:09:27.461 [main] INFO  c.e.demo.controllers.CartController - addTocart: Item has been added successfully
+2023-10-24 10:09:27.461 [main] INFO  c.e.demo.controllers.CartController - removeFromCart: Started to remove from cart
+2023-10-24 10:09:27.462 [main] ERROR c.e.demo.controllers.CartController - removeFromCart: Item has been removed successfully
+2023-10-24 10:09:27.462 [main] INFO  c.e.demo.controllers.CartController - removeFromCart: Started to remove from cart
+2023-10-24 10:09:27.462 [main] ERROR c.e.demo.controllers.CartController - removeFromCart: Item has been removed successfully
+2023-10-24 10:09:27.464 [main] INFO  c.e.demo.controllers.CartController - addTocart: started adding item to cart
+2023-10-24 10:09:27.465 [main] ERROR c.e.demo.controllers.CartController - addTocart: user with username null not found
+2023-10-24 10:09:27.467 [main] INFO  c.e.demo.controllers.CartController - addTocart: started adding item to cart
+2023-10-24 10:09:27.468 [main] ERROR c.e.demo.controllers.CartController - addTocart: item with item id 0 not found
+2023-10-24 10:09:27.468 [main] INFO  c.e.demo.controllers.CartController - removeFromCart: Started to remove from cart
+2023-10-24 10:09:27.468 [main] ERROR c.e.demo.controllers.CartController - removeFromCart: User with username null not found
+2023-10-24 10:09:27.468 [main] INFO  c.e.demo.controllers.CartController - removeFromCart: Started to remove from cart
+2023-10-24 10:09:27.468 [main] ERROR c.e.demo.controllers.CartController - removeFromCart: Item with id 0 not found
+2023-10-24 10:10:00.095 [main] INFO  c.e.demo.controllers.OrderController - createUser: potential cart is created for the new user
+2023-10-24 10:10:00.098 [main] ERROR c.e.demo.controllers.OrderController - createUser: Password`s length is less than 7 or password and confirmedPassword does not match
+2023-10-24 10:10:00.098 [main] INFO  c.e.demo.controllers.OrderController - createUser: potential cart is created for the new user
+2023-10-24 10:10:00.098 [main] ERROR c.e.demo.controllers.OrderController - createUser: Password`s length is less than 7 or password and confirmedPassword does not match
+2023-10-24 10:10:00.106 [main] INFO  c.e.demo.controllers.OrderController - createUser: potential cart is created for the new user
+2023-10-24 10:10:00.111 [main] INFO  c.e.demo.controllers.OrderController - createUser: New user has been created successfully
