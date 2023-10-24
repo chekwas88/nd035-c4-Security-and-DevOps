@@ -17,9 +17,13 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "cart")
+@AllArgsConstructor
+@NoArgsConstructor
 public class Cart {
 	
 	@Id

@@ -13,10 +13,15 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonProperty.Access;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 
 @Entity
 @Table(name = "user")
+@AllArgsConstructor
+@NoArgsConstructor
 public class User {
 
 	@Id
@@ -37,7 +42,12 @@ public class User {
     @JoinColumn(name = "cart_id", referencedColumnName = "id")
 	@JsonIgnore
     private Cart cart;
-	
+
+	public User(String username, String password) {
+		this.username = username;
+		this.password = password;
+	}
+
 	public Cart getCart() {
 		return cart;
 	}
